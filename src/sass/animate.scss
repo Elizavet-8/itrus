@@ -1,0 +1,27 @@
+@keyframes slideUp {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes annoying{
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.2);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}

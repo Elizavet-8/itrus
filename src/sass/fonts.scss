@@ -1,0 +1,30 @@
+@mixin font($fname, $fstyle, $fweight, $furl, $format) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format($format);
+  }
+}
+
+
+@include font('Atyp Display', normal, 400, '../fonts/AtypDisplay-Regular.woff2', 'woff2');
+@include font('Manrope', normal, 400, '../fonts/Manrope-Regular.woff2', 'woff2');
+@include font('Manrope', normal, 600, '../fonts/Manrope-Semibold.woff2', 'woff2');
+@include font('Manrope', normal, 700, '../fonts/Manrope-Bold.woff2', 'woff2');
+@include font('Manrope', normal, 800, '../fonts/Manrope-ExtraBold.woff2', 'woff2');
+@include font('PF Baseline Pro', normal, 400, '../fonts/PFBaselinePro-Regular.woff2', 'woff2');
+@include font('PF Baseline Pro', normal, 500, '../fonts/PFBaselinePro-Medium.woff2', 'woff2');
+
+@include font('Atyp Display', normal, 400, '../fonts/AtypDisplay-Regular.woff', 'woff');
+@include font('Manrope', normal, 400, '../fonts/Manrope-Regular.woff', 'woff');
+@include font('Manrope', normal, 600, '../fonts/Manrope-Semibold.woff', 'woff');
+@include font('Manrope', normal, 700, '../fonts/Manrope-Bold.woff', 'woff');
+@include font('Manrope', normal, 800, '../fonts/Manrope-ExtraBold.woff', 'woff');
+@include font('PF Baseline Pro', normal, 400, '../fonts/PFBaselinePro-Regular.woff', 'woff');
+@include font('PF Baseline Pro', normal, 500, '../fonts/PFBaselinePro-Medium.woff', 'woff');
+
+
+
+
+
